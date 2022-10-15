@@ -33,7 +33,6 @@
 }
 
 #hour-hand {
-  z-index: 99;
   width: 50px;
   height: 150px;
   border-radius: 25px;
@@ -41,7 +40,7 @@
   position: absolute;
   left: 200px;
   top: 100px;
-  /* border: 2px white solid; */
+  border: 2px white solid;
   transform-origin: center 125px;
   transform: rotateZ(0);
 }
@@ -54,7 +53,7 @@
   position: absolute;
   left: 200px;
   top: 0px;
-  /* border: 2px white solid; */
+  border: 2px white solid;
   transform-origin: center 225px;
   transform: rotateZ(0deg);
 }
