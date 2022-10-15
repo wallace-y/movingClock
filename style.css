@@ -32,7 +32,7 @@
   transform: translate(-50%, -50%);
 }
 
-.hour-hand {
+#hour-hand {
   z-index: 99;
   width: 150px;
   height: 50px;
@@ -46,7 +46,7 @@
   transform: rotateZ(225deg);
 }
 
-.min-hand {
+#min-hand {
   width: 50px;
   height: 250px;
   border-radius: 25px;
