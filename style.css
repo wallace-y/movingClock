@@ -24,7 +24,7 @@
   width: 450px;
   height: 450px;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 3px solid white;
   background-color: darkgray;
   position: absolute;
   left: 50%;
@@ -43,6 +43,7 @@
   border: 2px white solid;
   transform-origin: center 125px;
   transform: rotateZ(0);
+  z-index: 98;
 }
 
 #min-hand {
@@ -56,4 +57,35 @@
   border: 2px white solid;
   transform-origin: center 225px;
   transform: rotateZ(0deg);
+  z-index: 99;
+}
+
+/* styling time-lines 12,3,6,9*/
+
+.time-line {
+  width: 5px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+}
+
+.top {
+  left: 226.5px;
+}
+
+.right {
+  top: 175px;
+  left: 398px;
+  transform: rotateZ(90deg);
+}
+
+.bottom {
+  left: 226.5px;
+  top: 350px;
+}
+
+.left {
+  top: 175px;
+  left: 48px;
+  transform: rotateZ(270deg);
 }
